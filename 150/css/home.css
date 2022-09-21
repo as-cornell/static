@@ -1,0 +1,85 @@
+/*
+***homepage layout
+*/
+/**
+* Colors
+**/
+/**
+*fonts and typography
+**/
+/**
+*page elements
+**/
+/**
+*links and navigation
+**/
+/**
+* image etc border and shadows
+**/
+@media screen and (min-width: 640px) and (max-width: 1059px) {
+  /* line 10, ../sass/home.scss */
+  .imgIntro {
+    margin-bottom: 0; }
+
+  /* line 19, ../sass/home.scss */
+  .imgIntro:nth-of-type(odd) .imgIntro--mask__left {
+    border-bottom: 570px solid #ECEAE0;
+    border-right: 180px solid transparent;
+    left: 0;
+    top: 0; }
+  /* line 25, ../sass/home.scss */
+  .imgIntro:nth-of-type(odd) .imgIntro--mask__right {
+    border-top: 570px solid #ECEAE0;
+    border-left: 180px solid transparent;
+    right: 0; }
+
+  /* line 33, ../sass/home.scss */
+  .imgIntro:nth-of-type(even) .imgIntro--mask__left {
+    border-top: 570px solid #ECEAE0;
+    border-right: 180px solid transparent;
+    left: 0; }
+  /* line 38, ../sass/home.scss */
+  .imgIntro:nth-of-type(even) .imgIntro--mask__right {
+    border-bottom: 570px solid #ECEAE0;
+    border-left: 180px solid transparent;
+    right: 0; } }
+@media screen and (min-width: 1060px) {
+  /* line 47, ../sass/home.scss */
+  .imgIntro {
+    margin-bottom: 0; }
+
+  /* line 51, ../sass/home.scss */
+  .imgIntro:nth-of-type(4n+2), .imgIntro:nth-of-type(4n+3) {
+    float: right; }
+
+  /* line 56, ../sass/home.scss */
+  .imgIntro:nth-of-type(4n+1) .imgIntro--mask__left, .imgIntro:nth-of-type(4n+2) .imgIntro--mask__left {
+    border-bottom: 570px solid #ECEAE0;
+    border-right: 180px solid transparent;
+    left: 0;
+    top: 0; }
+  /* line 62, ../sass/home.scss */
+  .imgIntro:nth-of-type(4n+1) .imgIntro--mask__right, .imgIntro:nth-of-type(4n+2) .imgIntro--mask__right {
+    border-top: 570px solid #ECEAE0;
+    border-left: 180px solid transparent;
+    right: 0; }
+
+  /* line 70, ../sass/home.scss */
+  .imgIntro:nth-of-type(4n+3) .imgIntro--mask__left, .imgIntro:nth-of-type(4n+4) .imgIntro--mask__left {
+    border-top: 570px solid #ECEAE0;
+    border-right: 180px solid transparent;
+    left: 0; }
+  /* line 75, ../sass/home.scss */
+  .imgIntro:nth-of-type(4n+3) .imgIntro--mask__right, .imgIntro:nth-of-type(4n+4) .imgIntro--mask__right {
+    border-bottom: 570px solid #ECEAE0;
+    border-left: 180px solid transparent;
+    right: 0; } }
+
+/*
+     FILE ARCHIVED ON 18:00:10 Jan 05, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:03:41 Sep 29, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
